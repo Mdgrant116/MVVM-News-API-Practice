@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		4E13B35D2375F210007B617C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13B35C2375F210007B617C /* AppDelegate.swift */; };
 		4E13B35F2375F210007B617C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13B35E2375F210007B617C /* SceneDelegate.swift */; };
-		4E13B3612375F210007B617C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13B3602375F210007B617C /* ViewController.swift */; };
 		4E13B3642375F210007B617C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E13B3622375F210007B617C /* Main.storyboard */; };
 		4E13B3662375F211007B617C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E13B3652375F211007B617C /* Assets.xcassets */; };
 		4E13B3692375F211007B617C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E13B3672375F211007B617C /* LaunchScreen.storyboard */; };
+		4E13B3722375F261007B617C /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13B3712375F261007B617C /* NewsListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E13B3592375F210007B617C /* MVVM News API Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM News API Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E13B35C2375F210007B617C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E13B35E2375F210007B617C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E13B3602375F210007B617C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4E13B3632375F210007B617C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E13B3652375F211007B617C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E13B3682375F211007B617C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E13B36A2375F211007B617C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E13B3712375F261007B617C /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,23 @@
 		4E13B35B2375F210007B617C /* MVVM News API Practice */ = {
 			isa = PBXGroup;
 			children = (
+				4E13B3702375F23E007B617C /* Controllers */,
 				4E13B35C2375F210007B617C /* AppDelegate.swift */,
 				4E13B35E2375F210007B617C /* SceneDelegate.swift */,
-				4E13B3602375F210007B617C /* ViewController.swift */,
 				4E13B3622375F210007B617C /* Main.storyboard */,
 				4E13B3652375F211007B617C /* Assets.xcassets */,
 				4E13B3672375F211007B617C /* LaunchScreen.storyboard */,
 				4E13B36A2375F211007B617C /* Info.plist */,
 			);
 			path = "MVVM News API Practice";
+			sourceTree = "<group>";
+		};
+		4E13B3702375F23E007B617C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E13B3712375F261007B617C /* NewsListTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E13B3612375F210007B617C /* ViewController.swift in Sources */,
 				4E13B35D2375F210007B617C /* AppDelegate.swift in Sources */,
+				4E13B3722375F261007B617C /* NewsListTableViewController.swift in Sources */,
 				4E13B35F2375F210007B617C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
