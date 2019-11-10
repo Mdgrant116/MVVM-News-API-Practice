@@ -13,7 +13,7 @@
 		4E13B3662375F211007B617C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E13B3652375F211007B617C /* Assets.xcassets */; };
 		4E13B3692375F211007B617C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E13B3672375F211007B617C /* LaunchScreen.storyboard */; };
 		4E13B3722375F261007B617C /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E13B3712375F261007B617C /* NewsListTableViewController.swift */; };
-		4E2BB30C2378A5DE00D3E4B8 /* Reame.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E2BB30B2378A5DE00D3E4B8 /* Reame.md */; };
+		4E2BB30C2378A5DE00D3E4B8 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 4E2BB30B2378A5DE00D3E4B8 /* Readme.md */; };
 		4E5F0D232377721400C0A752 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F0D222377721400C0A752 /* WebService.swift */; };
 		4E5F0D262377777300C0A752 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F0D252377777300C0A752 /* Article.swift */; };
 		4E5F0D292377809A00C0A752 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F0D282377809A00C0A752 /* ArticleViewModel.swift */; };
@@ -29,7 +29,7 @@
 		4E13B3682375F211007B617C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E13B36A2375F211007B617C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E13B3712375F261007B617C /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
-		4E2BB30B2378A5DE00D3E4B8 /* Reame.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Reame.md; sourceTree = "<group>"; };
+		4E2BB30B2378A5DE00D3E4B8 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		4E5F0D222377721400C0A752 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		4E5F0D252377777300C0A752 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		4E5F0D282377809A00C0A752 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		4E13B3502375F210007B617C = {
 			isa = PBXGroup;
 			children = (
-				4E2BB30B2378A5DE00D3E4B8 /* Reame.md */,
+				4E2BB30B2378A5DE00D3E4B8 /* Readme.md */,
 				4E13B35B2375F210007B617C /* MVVM News API Practice */,
 				4E13B35A2375F210007B617C /* Products */,
 			);
@@ -181,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E13B3692375F211007B617C /* LaunchScreen.storyboard in Resources */,
-				4E2BB30C2378A5DE00D3E4B8 /* Reame.md in Resources */,
+				4E2BB30C2378A5DE00D3E4B8 /* Readme.md in Resources */,
 				4E13B3662375F211007B617C /* Assets.xcassets in Resources */,
 				4E13B3642375F210007B617C /* Main.storyboard in Resources */,
 			);
