@@ -18,6 +18,7 @@
 		4E5F0D262377777300C0A752 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F0D252377777300C0A752 /* Article.swift */; };
 		4E5F0D292377809A00C0A752 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F0D282377809A00C0A752 /* ArticleViewModel.swift */; };
 		4E5F0D2C2377842500C0A752 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F0D2B2377842500C0A752 /* ArticleTableViewCell.swift */; };
+		FC110701EFF718299A27C247 /* Pods_MVVM_News_API_Practice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A58553264A50C2A67114120 /* Pods_MVVM_News_API_Practice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,9 @@
 		4E5F0D252377777300C0A752 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		4E5F0D282377809A00C0A752 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		4E5F0D2B2377842500C0A752 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
+		4EB352400BBB6DDB91EBD0BA /* Pods-MVVM News API Practice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM News API Practice.release.xcconfig"; path = "Target Support Files/Pods-MVVM News API Practice/Pods-MVVM News API Practice.release.xcconfig"; sourceTree = "<group>"; };
+		7A58553264A50C2A67114120 /* Pods_MVVM_News_API_Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM_News_API_Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6EA81900397E91A2AF324F /* Pods-MVVM News API Practice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM News API Practice.debug.xcconfig"; path = "Target Support Files/Pods-MVVM News API Practice/Pods-MVVM News API Practice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,18 +45,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC110701EFF718299A27C247 /* Pods_MVVM_News_API_Practice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44869830DE21D0DF5D95E198 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA6EA81900397E91A2AF324F /* Pods-MVVM News API Practice.debug.xcconfig */,
+				4EB352400BBB6DDB91EBD0BA /* Pods-MVVM News API Practice.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4E13B3502375F210007B617C = {
 			isa = PBXGroup;
 			children = (
 				4E2BB30B2378A5DE00D3E4B8 /* Readme.md */,
 				4E13B35B2375F210007B617C /* MVVM News API Practice */,
 				4E13B35A2375F210007B617C /* Products */,
+				44869830DE21D0DF5D95E198 /* Pods */,
+				742A2AF3B0B43920EA0B3796 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +139,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		742A2AF3B0B43920EA0B3796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A58553264A50C2A67114120 /* Pods_MVVM_News_API_Practice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E13B36D2375F211007B617C /* Build configuration list for PBXNativeTarget "MVVM News API Practice" */;
 			buildPhases = (
+				ED41594D36322C3A39F07EEB /* [CP] Check Pods Manifest.lock */,
 				4E13B3552375F210007B617C /* Sources */,
 				4E13B3562375F210007B617C /* Frameworks */,
 				4E13B3572375F210007B617C /* Resources */,
+				74C84D2ED20C5E7F29A44FB4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +215,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74C84D2ED20C5E7F29A44FB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM News API Practice/Pods-MVVM News API Practice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MVVM News API Practice/Pods-MVVM News API Practice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM News API Practice/Pods-MVVM News API Practice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED41594D36322C3A39F07EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MVVM News API Practice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E13B3552375F210007B617C /* Sources */ = {
@@ -342,6 +411,7 @@
 		};
 		4E13B36E2375F211007B617C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6EA81900397E91A2AF324F /* Pods-MVVM News API Practice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,6 +430,7 @@
 		};
 		4E13B36F2375F211007B617C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EB352400BBB6DDB91EBD0BA /* Pods-MVVM News API Practice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

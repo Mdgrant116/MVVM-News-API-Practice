@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import SDWebImage
 import UIKit
 
 class NewsListTableViewController: UITableViewController {
@@ -30,7 +30,7 @@ class NewsListTableViewController: UITableViewController {
             if let articles = articles {
                 
                 self.articleListVM = ArticleListViewModel(articles: articles)
-
+                
                 DispatchQueue.main.async {
                     
                     self.tableView.reloadData()
@@ -57,9 +57,11 @@ class NewsListTableViewController: UITableViewController {
             
         }
         let articleVM = self.articleListVM.articleAtIndex(indexPath.row)
+        let url = URL(string: articleVM.image)
         
         cell.titleLabel.text = articleVM.title
         cell.descriptionLabel.text = articleVM.description
+        cell.atricleImageView.sd_setImage(with: url)
         
         return cell 
     }

@@ -61,4 +61,9 @@ extension ArticleViewModel {
         
         return self.article.description
     }
+    
+    var image: String {
+        
+        return self.article.urlToImage
+    }
 }
